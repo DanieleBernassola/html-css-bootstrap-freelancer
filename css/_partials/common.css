@@ -1,36 +1,12 @@
-/* INIZIO CLASSI UTILITY BACKGROUND */
 .db-bg-lightgray{
     background-color: #3a546d;
 }
 
-.db-bg-cabin{
-    background-color: #ba4b63;
-}
-
-.db-bg-cake{
-    background-color: #1ea4b6;
-}
-
-.db-bg-circus{
-    background-color: #140f0f;
-}
-
-.db-bg-game{
-    background-color: #1c83c1;
-}
-
-.db-bg-safe{
-    background-color: #0e38b5;
-}
-
-.db-bg-submarine{
-    background-color: #ccb2a3;
-}
-/* FINE CLASSI UTILITY BACKGROUND */
 header, footer{
     background-color: var(--secondary-color);
 }
 
+/* INIZIO CLASSI MAIN */
 main section:nth-child(odd){
     background-color: var(--primary-color);
 }
@@ -40,6 +16,12 @@ main section:nth-child(even){
     /* form-color:var(--secondary-color) */
 }
 
+#portfolio .col .content{
+    border-radius: 1rem;
+    overflow: hidden;
+}
+/* FINE CLASSI MAIN */
+/* INIZIO CLASSI UTILITY */
 .db-border-white{
     border: 1px solid white;
 }
@@ -51,3 +33,4 @@ main section:nth-child(even){
 .db-height-200{
     height: 200px;
 }
+/* FINE CLASSI UTILITY */
