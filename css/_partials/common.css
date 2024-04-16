@@ -35,6 +35,18 @@ main section:nth-child(odd){
     background-color: var(--primary-color);
 }
 
+main section:nth-child(even){
+    color: #333333;
+    /* form-color:var(--secondary-color) */
+}
+
+.db-border-white{
+    border: 1px solid white;
+}
+
+.db-img-invert{
+    filter: invert(1);
+}
 
 .db-height-200{
     height: 200px;
