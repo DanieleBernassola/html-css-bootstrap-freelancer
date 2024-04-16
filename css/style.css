@@ -1,41 +1,4 @@
-/* INIZIO CLASSI UTILITY BACKGROUND */
-.db-bg-gray{
-    background-color: #2c3e50;
-}
-
-.db-bg-aqua{
-    background-color: #1abc9c;
-}
-
-.db-bg-lightgray{
-    background-color: #3a546d;
-}
-
-.db-bg-cabin{
-    background-color: #ba4b63;
-}
-
-.db-bg-cake{
-    background-color: #1ea4b6;
-}
-
-.db-bg-circus{
-    background-color: #140f0f;
-}
-
-.db-bg-game{
-    background-color: #1c83c1;
-}
-
-.db-bg-safe{
-    background-color: #0e38b5;
-}
-
-.db-bg-submarine{
-    background-color: #ccb2a3;
-}
-/* FINE CLASSI UTILITY BACKGROUND */
-
-.db-height-200{
-    height: 200px;
-}
+@import url(./_partials/variables.css);
+@import url(./_partials/common.css);
+@import url(./_partials/components/star-separator.css);
+@import url(./_partials/components/social-link.css);
