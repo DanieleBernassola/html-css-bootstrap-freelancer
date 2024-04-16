@@ -20,6 +20,20 @@ main section:nth-child(even){
     border-radius: 1rem;
     overflow: hidden;
 }
+
+main section .db-star:nth-child(even){
+    color: var(--secondary-color);
+}
+
+.db-btn{
+    border-radius: 0.25rem;
+}
+
+.db-btn-aqua{
+    border: 1px solid white;
+    background-color: var(--primary-color);
+    color: white;
+}
 /* FINE CLASSI MAIN */
 /* INIZIO CLASSI UTILITY */
 .db-border-white{
