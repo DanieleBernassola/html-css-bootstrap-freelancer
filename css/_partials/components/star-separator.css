@@ -1,0 +1,10 @@
+.my-star{
+    padding: 0 1rem;
+    font-size: 1.5rem;
+}
+
+.star-hr{
+    width: 25%;
+    border: 2px solid;
+    opacity: 1;
+}
