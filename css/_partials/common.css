@@ -39,6 +39,11 @@ main section .db-star:nth-child(even){
 #floatingTextarea{
     height: 150px;
 }
+
+span a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
 /* FINE CLASSI MAIN */
 /* INIZIO CLASSI UTILITY */
 .db-border-white{
